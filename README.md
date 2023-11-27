@@ -1,6 +1,6 @@
 ### Instrucciones
 
-Abrir `index.html` desde el navegador. Esta web muestra una lista de tests automáticos que están fallando (en rojo). Tendremos que completar el código que hay en los archivos `code.js` y `tests.js` para que los tests vayan pasando (verde).
+Abrir `index.html` desde el navegador. Esta web muestra una lista de tests automáticos que están fallando (en rojo). Tendremos que completar el código que hay en el archivo `tests.js` para que los tests vayan pasando (verde).
 
 #### Cómo funcionan los tests?
 Los tests son bloques de código que realizan una comprobación (si la condición del test se cumple, el test pasa ✅ y si no, falla ❌).
