@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Mocha Tests</title>
-  <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet"/>
+  <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
 </head>
+
 <body>
   <div id="mocha"></div>
   <script src="https://cdn.rawgit.com/Automattic/expect.js/0.3.1/index.js"></script>
   <script src="https://cdn.rawgit.com/chaijs/chai/3.5.0/chai.js"></script>
   <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
-
-  <script src="code.js"></script>
+  
+  <script src="setup.js"></script>
   <script>
     const mocha = window.mocha;
     mocha.setup('bdd');
@@ -22,5 +24,5 @@
     mocha.run();
   </script>
 </body>
-</html>
 
+</html>

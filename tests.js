@@ -1,8 +1,5 @@
 "use strict";
 
-const chai = window.chai
-const expect = chai.expect
-
 describe("Conceptos básicos: variables", () => {
     it("Usaremos let para definir variables", () => {
         let name = "Frodo";
